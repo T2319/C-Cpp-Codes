@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,x,c,y,e;
+	char op;
+	cout<<"enter any two number"<<endl;
+	cin>>a>>b;
+	y=b*b-4*a*c;
+	cin>>op;
+	cout<<"the value of x is ="<<-b+square y<<=e<<endl;
+	cout<<"the value of x is ="<<e/2*a<<endl;
+	return 0;
+}
