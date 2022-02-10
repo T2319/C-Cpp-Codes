@@ -1,16 +1,13 @@
-#include<iostream>
+
+  #include <iostream>
 using namespace std;
 int main()
-{ 
+{
+	float a,b;
+	cout<<"enter length and breath of square"<<endl;
+	cin>>a;
+	cin>>b;
+	cout<<"the area of square is" <<a*b<<endl;
 
-  int a,b,c;
-  cout<<"enter length of square"<<endl;
-  cin>>a;
-  cout<<"enter breadth of square"<<endl;
-  cin>>b;
-  cout<<"the area of square ="<<a*b<<endl;
-  cout<< "the circumference of circle"<<3.142*a*b<<endl;
-  
-  return 0;
-
+	return 0;
 }
