@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{ 
+int A,B,C,D,a,b,c,d;
+char op;
+char grade;
+cout<<"enter your grade"<<endl;
+cin>>grade;
+if (grade=='A+'||'a+')
+{ cout<<"your average must be 90-100"<<endl;
+}
+else if (grade=='B'||'b')
+{
+
+cout<<"your average must be 60-69"<<endl;}
+
+else if (grade=='a'||'A')
+{
+ cout<<"your average must be 70-79"<<endl;
+}
+else if (grade=='c'||'C')
+{ cout<<"your average must be 50-59"<<endl;
+}
+else if (grade=='D'||'d')
+{ cout <<" your average must be 40-49"<<endl;
+}
+else
+{ cout<<"wrong operate";
+}
+return 0;
+}
