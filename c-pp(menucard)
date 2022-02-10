@@ -1,0 +1,103 @@
+
+
+#include <iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{
+ string name;
+ cout<<"welcome"<<endl;
+ cout<<"what is your name ?"<<endl;
+ cin>>name;
+	
+ cout<<"--------------menu----------------"<<endl;
+ cout<<"number of items available prices"<<endl;
+ cout<<"1.sausage Rs 220"<<endl;
+ cout<<"2.cheese and mashroom omelete Rs 50"<<endl;
+ cout<<"3.paratha Rs 25"<<endl;
+ cout<<"4.french toast Rs 45"<<endl;
+ cout<<"5.cofee Rs 120"<<endl;
+ cout<<"6.tea Rs 40"<<endl;
+ cout<<"7.nutella pan cake Rs 395"<<endl;
+	
+ char od1;
+ cout<<"what is your order 1 ?"<<od1<<endl;
+ cin>>od1;
+ char od2;
+ cout<<"what is your order 2 ?"<<od2<<endl;
+ cin>>od2;
+	
+ int Q;
+ cout<<"name of the customer"<<name<<endl;
+ cout<<" please enter the quantity";
+ cin>>Q;
+ cout<<"your total quantity"<<Q<<endl;
+	
+
+ if (od1=='1')
+ {
+  cout<<"Your order is Sausage and the your total price is "<<220*Q<<endl;
+ }
+ else if (od1=='2')
+ {
+  cout<<"Your order is Cheese Omellete and your total price is"<<50*Q<<endl;
+ }
+ else if (od1=='3')
+ {
+  cout<<"Your order is Paratha and your total price is"<<25*Q<<endl;
+ }
+ else if (od1=='4')
+ {
+  cout<<"Your order is French Toast and your total price is"<<45*Q<<endl;
+ }
+ else if (od1=='5')
+ {
+  cout<<"Your order is Coffee and your total price is"<<120*Q<<endl;
+ }
+ else if (od1=='6')
+ {
+  cout<<"Your order is Tea and your total price is"<<40*Q<<endl;
+ }
+ else if (od1=='7')
+ {
+  cout<<"Your order is Neutella Cake and your total price is"<<395*Q<<endl;
+ } 
+    else
+ {
+  cout<<"wrong order try again"<<endl;
+ }
+
+  if (od2=='1')
+ {
+  cout<<"Your order is Sausage and the your total price is "<<220*Q<<endl;
+ }
+ else if (od2=='2')
+ {
+  cout<<"Your order is Cheese Omellete and your total price is"<<50*Q<<endl;
+ }
+ else if (od2=='3')
+ {
+  cout<<"Your order is Paratha and your total price is"<<25*Q<<endl;
+ }
+ else if (od2=='4')
+ {
+  cout<<"Your order is French Toast and your total price is"<<45*Q<<endl;
+ }
+ else if (od2=='5')
+ {
+  cout<<"Your order is Coffee and your total price is"<<120*Q<<endl;
+ }
+ else if (od2=='6')
+ {
+  cout<<"Your order is Tea and your total price is"<<40*Q<<endl;
+ }
+ else if (od2=='7')
+ {
+  cout<<"Your order is Neutella Cake and your total price is"<<395*Q<<endl;
+ } 
+ else
+ {
+  cout<<"wrong order try again"<<endl;
+ }
+        return 0; 
+}
