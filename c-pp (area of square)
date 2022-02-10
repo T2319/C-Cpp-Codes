@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{ 
+
+  int a,b,c;
+  cout<<"enter length of square"<<endl;
+  cin>>a;
+  cout<<"enter breadth of square"<<endl;
+  cin>>b;
+  cout<<"the area of square ="<<a*b<<endl;
+  cout<< "the circumference of circle"<<3.142*a*b<<endl;
+  
+  return 0;
+
+}
