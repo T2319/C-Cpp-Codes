@@ -1,0 +1,9 @@
+#include<stdio.h>
+using namespace std;
+int main()
+{
+	float number= 1.333,
+	
+	printf("numnber 1=%fl/n", &number 1 );
+	printf("number 2 =%fl/n", &number 2 );
+}
