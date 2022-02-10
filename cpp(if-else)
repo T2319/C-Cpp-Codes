@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+int a,s;
+cout<<"enter any number"<<endl;
+	
+	cin>>a;
+	s=sqrt(a);
+	cout<<"the square root of "<<a<<"is ="<<s;
+	
+	
+	cin>>a;
+	if(a/2==0)
+	{ cout<< "the number is even"<<endl;	}
+	else
+	{ cout<<"the number is odd"<<endl;
+	}
+	
+	return 0;
+}
